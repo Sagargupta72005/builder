@@ -1,0 +1,8 @@
+@keyframes running-anim {
+  0% { background-position: 20px 0; }
+  50% { background-position: 30px 0; }
+  100% { background-position: -100px 0; }
+}
+.bg-run {
+  animation: running-anim 20s linear infinite;
+}

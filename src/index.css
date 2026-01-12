@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+@layer utilities {
+  .clip-path-polygon {
+    clip-path: polygon(0 100%, 100% 60%, 100% 100%, 0 100%);
+  }
+
+  .clip-path-polygon-alt {
+    clip-path: polygon(100% 0, 0 100%, 100% 100%);
+  }
+}
+
